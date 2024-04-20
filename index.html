@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WT-3083P</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         .header-image{
             height: 400px;
@@ -15,8 +17,10 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
-        <div class="container-fluid">
+
+  <!--NavBar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
+        <div style="background-color: rgb(34, 45, 45);" class="container-fluid">
 
           <a class="navbar-brand" href="#">Navbar</a>
 
@@ -43,17 +47,19 @@
           </div>
         </div>
       </nav>
-
-      <header>
+      <!--Header-->
+      <header style="background-color:rgb(47, 61, 61);" >
        
-        <div class="container pt-5 ">
+        <div class="container p-5 ">
 
             
-            <div class="row gx-5 align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center">
             
                 <div class="col-6 text-center text-xl-start  ">
                     <h1>Bootstrap 5 template for modern businesses</h1>
                     <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Learn More</button>
 
                 </div>
                 <div class="col-6 header-image"></div>
@@ -64,9 +70,145 @@
         
 
       </header>
-    
+      <!--Icon Section-->
+      <div class="container ">
+
+        <div class="row justify-content-center pt-5">
+
+          <div class="col-xl-4 ">
+            <p class="fs-1">A better way to start building.</p></div>
+
+          <div class="col-xl-4 ">
+
+            <i class="bi bi-activity fs-1 bg-primary"></i>
+            <h4>Featured Title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+            </p>
+
+            <i class="bi bi-activity fs-1 bg-primary"></i>
+            <h4>Featured Title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+            </p>
+
+          </div>
+          
+
+          <div class="col-xl-4 ">
+
+            <i class="bi bi-activity fs-1 bg-primary"></i>
+            <h4>Featured Title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+            </p>
+
+            <i class="bi bi-activity fs-1 bg-primary"></i>
+            <h4>Featured Title</h4>
+            <p>Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+            </p>
+
+          </div>
+          
+
+        </div>
 
 
+      </div>
+      <!--Comments Section-->
+      <div style="background-color:antiquewhite;" class="container py-5 justify-content-center col-xl-6 text-center  ">
+        
+        <div class="">
+          <h6>"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</h6>
+        </div>
+        
+        <div class="d-flex justify-content-center align-items-center  ">
+
+            <div style="height: 40px; width: 40px; background-color: black; border-radius: 50%;">
+            </div>
+
+            <p class="mx-1 my-0 ">
+              Tom Ato <span> / </span> CEO, Pomodoro
+            </p>
+
+        </div>
+
+      </div>
+      <!--Blog Section-->
+      <div class="container py-5 ">
+        <div class="row">
+          <div class="div justify-content-center col-xl-5 mx-auto text-center">
+            <h3>From our blog</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+          </div>
+              
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-primary">New</span>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-primary">New</span>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <span class="badge text-bg-primary">New</span>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--Submit Button-->
+      <aside class="bg-primary bg-gradient rounded-3 p-4 mt-5 ">
+        <div class="d-flex justify-content-between ">
+        <div>
+          <div>New products, delivered to you.</div>
+          <div>Sign up for our newsletter for the latest updates.</div>
+        </div>
+        <div class="ms-xl-4 ">
+        <div class="input-group ">
+          <input class= "form-control" type="text" placeholder="Email address.."  > 
+          <button class="btn btn-outline-light" type="button" >Sign Up</button>
+        </div>
+        </div>
+        </div>
+      </aside>
+
+        </div>
+ 
+        <!--Footer-->
+      </div>
+      <footer class="bg-dark py-4 mt-auto ">
+        <div class="container px-5">
+          <div class="row  justify-content-between  ">
+            <div class="col-6 ">
+              <div class="small text-white m-0 "> Copyright © Your Website 2023 </div>
+            </div>
+            <div class="col-6  text-end  ">
+              <a class="link-light small "href="">Privacy</a>
+              <span class="text-white">.</span>
+              <a class="link-light small "href="">Terms</a>
+              <span class="text-white">.</span>
+              <a class="link-light small "href="">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+        
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
