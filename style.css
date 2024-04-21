@@ -1,0 +1,45 @@
+.navbar, .footer{
+    background-color: #a19941 !important;  
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+@media (max-width : 576px){
+    .masthead-heading{
+        font-size: 2rem;
+    }
+    .masthead-subheading{
+        font-size: 1rem;
+    }
+    .page-section-heading{
+        font-size: 1.75rem;
+    }
+    
+}
+@media (min-width : 576px){
+    .img-fluid{
+        max-width: 20rem;
+    }
+}
+@media (min-width : 768px){
+    .img-fluid{
+        max-width: 40rem;
+    }
+}
+@media (min-width : 992px){
+    .img-fluid{
+        max-width: 20rem;
+    }
+}
+@media (min-width : 1200px){
+    .img-fluid{
+        max-width: 80rem;
+    }
+}
+@media (min-width : 1400px){
+    .img-fluid{
+        max-width: 20rem;
+    }
+}
